@@ -1,0 +1,1 @@
+data = np.array([[sepal_l, sepal_w, petal_l, petal_w]])
