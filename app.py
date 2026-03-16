@@ -7,6 +7,7 @@ from model import IrisSmartNN
 # ১. রিসোর্স লোডিং (Cache ব্যবহার করা হয়েছে পারফরম্যান্সের জন্য)
 @st.cache_resource
 def init_resources():
+    
     # মডেল কঙ্কাল তৈরি
     model = IrisSmartNN(input_dim=4, hidden_dim=16, output_dim=3, num_layers=2, dropout_rate=0.05)
     # সেভ করা ওয়েট লোড করা
